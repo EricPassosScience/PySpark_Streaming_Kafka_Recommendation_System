@@ -1,0 +1,10 @@
+# Creación de contenedores Docker para Apache Kafka Cluster
+
+
+# Abra el símbolo del sistema o la terminal, navegue hasta la carpeta donde se encuentran los archivos del proyecto y ejecute el siguiente comando:
+
+docker-compose up -d
+
+# Para cerrar la ejecución del clúster de Kafka:
+
+docker-compose down

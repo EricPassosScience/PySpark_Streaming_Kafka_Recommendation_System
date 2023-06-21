@@ -1,0 +1,26 @@
+# Crear el tema de Kafka
+
+
+# Acceda al contenedor de Kafka y ejecute los siguientes comandos para crear y luego ver un tema en Kafka:
+
+bash
+
+cd /opt/kafka/bin
+
+# Crear un tema
+kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dsaminiprojeto7
+
+
+# Listar temas creados
+kafka-topics.sh --list --zookeeper zookeeper:2181
+
+
+# Detalles sobre el tema
+kafka-topics.sh --describe --zookeeper zookeeper:2181
+
+
+# Consumir el Streaming
+kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic dsaminiprojeto7 --from-beginning
+
+# Comentarios
+El tema no es más que un archivo de registro, un archivo de registro administrado en tiempo real por Apache Kafka.
