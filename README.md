@@ -1,6 +1,6 @@
 # Sistema de recomendación en tiempo real con PySpark, Spark Streaming y Apache Kafka.
 
-## Meta
+## Objetivo
 Recomendaremos canciones según las preferencias de los usuarios, pero se puede modificar el proyecto para recomendar otros temas o servicios.
 
 Este proyecto se compone de varias etapas ya que se debe crear toda la infraestructura necesaria.
