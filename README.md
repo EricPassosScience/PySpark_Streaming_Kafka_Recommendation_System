@@ -31,8 +31,10 @@ Los sistemas de recomendación modernos también pueden utilizar técnicas de ap
 Para trabajar con Spark Streaming utilizaremos Apache Spark, y para gestionar el streaming de datos utilizaremos Apache Kafka. Sin embargo, no será necesario instalarlo en tu máquina, ya que utilizaremos un contenedor Docker para Kafka.
 
 ## Arquitetura
-![imagem_2023-06-11_232806243](https://github.com/EricPassosScience/Text_Analytics_Human_Resources/assets/97414922/41834605-511f-4e5d-a9b1-fb021e1e9a49)
 
+<p align="center">
+  <img width="1050" height="500" src="https://github.com/EricPassosScience/Monte_Carlo_Simulation-Time_Series/assets/97414922/57e4daa2-2bbe-400c-8a50-436d5668a287">
+</p>
 
 ## Conectores
 
